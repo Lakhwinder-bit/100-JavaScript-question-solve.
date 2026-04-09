@@ -17,12 +17,12 @@
 
 
 //Second Answer ---->
-function CheckNumber(num) {
-  if (num % 2 === 0) {
-    return `${num} is Even Number`;
-  } else {
-    return `${num} is Odd Number`;
-  }
-}
-let result = CheckNumber(1110);
-console.log(result);
+// function CheckNumber(num) {
+//   if (num % 2 === 0) {
+//     return `${num} is Even Number`;
+//   } else {
+//     return `${num} is Odd Number`;
+//   }
+// }
+// let result = CheckNumber(1110);
+// console.log(result);
