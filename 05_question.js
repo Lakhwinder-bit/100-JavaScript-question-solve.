@@ -28,12 +28,12 @@
 // console.log(result)
 
 
-let arr = [2,5,19,19,105]
-let Maximum = arr[0]
-arr.forEach((elm)=>{
-    if(elm > Maximum){
-        Maximum = elm;
-    }
-})
-console.log(Maximum)
+// let arr = [2,5,19,19,105]
+// let Maximum = arr[0]
+// arr.forEach((elm)=>{
+//     if(elm > Maximum){
+//         Maximum = elm;
+//     }
+// })
+// console.log(Maximum)
 
