@@ -1,18 +1,13 @@
 // Problem: Count Vowels in a String
 
-// let Vowels = ["a", "e", "i", "o", "u"];
-// let string = "hello";
-// let Count = 0;
-// Vowels.map((val)=>{
-// if(val === string){
-//     Count = Count + 1;
-// }
-// })
-// console.log(Count)
-
-function str(val){
- return val.split("")
+let Vowels = ["a", "e", "i", "o", "u"];
+let Count = 0;
+let string = "helloro"
+let res = string.split("");
+res.forEach((val)=>{
+if(Vowels.includes(val)){
+    Count++
 }
+})
+console.log(Count)
 
-let res = str("string")
-console.log(res)
